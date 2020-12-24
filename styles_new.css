@@ -37,7 +37,7 @@ body{
     float: right;
     display: flex;
     justify-content: space-around;
-    position: fixed;
+    position: absolute;
     right: 0;
 }
 .col-md-8 div{
