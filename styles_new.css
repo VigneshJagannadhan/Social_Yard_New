@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.video_class{
+    margin: 0;
+    overflow-x: hidden;
+    align-items: center;
+}
+.video_class video{
+    margin: 0;
+    height: 100vh;
+    min-width: 100%;
+}
+.video_overlay{
+    background-color: black;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    z-index: 2;
+}
+.col-md-8{
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    right: 0;
+}
+.col-md-8 div{
+    padding: 10px;
+}
+.col-md-4{
+    padding: 10px;
+    float: left;
+    font-family: 'Bebas Neue', cursive;
+}
+.main_head{
+    /*border: 1px solid white;*/
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    z-index: 3;
+}
+.main_head h1{
+    width: fit-content;
+    margin: auto;
+    margin-top: 15%;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+}
+.main_head h5{
+    width: fit-content;
+    margin: auto;
+    margin-top: 1%;
+}
+.col-md-8 a{
+    text-decoration: none;
+    color: rgb(216, 208, 208);
+}
+.link{
+    width: 20%;
+}
+#about{
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+}
+.about_head{
+    width: 100%;
+    height: 10vh;
+}
+.about_heading h1{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 50px;
+    color: white;
+
+}
+.about_content{
+    width: 100%;
+    height: 75vh;
+    margin-top: 3vh;
+    overflow: hidden;
+    margin: auto;
+}
+.inner_left{
+    float: left;
+    padding: 30px;
+    padding-top: 60px;
+    width: 40%;
+    height: 75vh;
+    text-align: justify;
+    background-color: rgb(54, 54, 54);
+}
+.inner_right{
+    float: left;
+    padding: 30px;
+    padding-top: 60px;
+    width: 40%;
+    height: 75vh;
+    text-align: justify;
+    background-color: rgb(54, 54, 54);
+
+}
+.inner_left img{
+    width: 200px;
+    height: 25vh;
+    margin: 5px;
+    padding-right: 10px;
+    text-align: justify;
+    float: left;
+}
+.inner_right img{
+    width: 200px;
+    height: 25vh;
+    margin: 5px;
+    padding-right: 10px;
+    text-align: justify;
+    float: left;
+
+}
+#what{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    color: black;
+    overflow: hidden;
+}
+#what img{
+    width: 80px;
+}
+.top{
+    background-color: rgb(201, 197, 197);
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+}
+.bottom{
+    background-color: rgb(201, 197, 197);
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+    display: flex;
+}
+.top_services{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.top_services img{
+    margin: auto;
+    padding: 10px;
+}
+.bottom_services{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.bottom_services img{
+    padding: 10px;
+    margin: auto;
+}
+.what_head{
+    width: 100%;
+    height: 10vh;
+}
+.what_heading h1{
+    padding-left: 30px;
+    padding-top: 10px;
+    color: grey;
+    font-size: 50px;
+}
+.top_about{
+    background-color: rgb(80, 80, 80);
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+}
+.bottom_about{
+    background-color: rgb(80, 80, 80);
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+}
+.top_contact{
+    background-color: darkgrey;
+    width: 80%;
+    height: 65vh;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: justify;
+    border-radius:10px;
+}
+#contact{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+.contact_head{
+    width: 100%;
+    height: 10vh;
+}
+.contact_heading h1{
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+    font-size: 50px;
+}
+.name{
+    width: 100%;
+    height: 10vh;
+}
+.phone{
+    width: 100%;
+    height: 10vh;
+}
+.email{
+    width: 100%;
+    height: 10vh;
+}
+.text{
+    width: 100%;
+    height: 30vh;
+}
+.name input{
+    float: right;
+    width: 80%;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+}
+.name label{
+    float: left;
+    padding: 10px;
+    margin: 10px 10px;
+}
+.phone input{
+    float: right;
+    width: 80%;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+}
+.phone label{
+    float: left;
+    padding-left: 10px;
+    margin: 10px 10px;
+}
+.email input{
+    float: right;
+    width: 80%;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+}
+.email label{
+    float: left;
+    padding: 10px;
+    margin: 10px 10px;
+}
+.text input{
+    float: right;
+    color: black;
+    width: 80%;
+    height: 27vh;
+    margin: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.text label{
+    float: left;
+    padding: 10px;
+    margin: 10px 10px;
+}
